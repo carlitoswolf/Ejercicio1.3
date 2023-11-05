@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio1._3.MainPage"
+             Title="REGISTRO">
+
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Entry Keyboard="Text" Placeholder="NOMBRES" x:Name="_nombre"
+                   Margin="5"/>
+            <Entry Keyboard="Text" Placeholder="APELLIDOS" x:Name="_apellidos"
+                   Margin="5"/>
+            <Entry Keyboard="Numeric" Placeholder="EDAD" x:Name="_edad"
+                   Margin="5"/>
+            <Entry Keyboard="Email" Placeholder="CORREO" x:Name="_correo"
+                   Margin="5"/>
+            <Entry Keyboard="Text" Placeholder="DIRECCION" x:Name="_direccion"
+                   Margin="5"/>
+            <Button x:Name="btnGuardar" Text="Registrar" Clicked="btnGuardar_Clicked" 
+                    Margin="10" Padding="15"
+                    BorderWidth="3" BorderColor="Orange" Background="black" MaximumWidthRequest="150"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>
